@@ -19,7 +19,7 @@ expo start
 Run tailwind-rn in development mode:
 
 ```
- $ npm run dev:tailwind
+npm run dev:tailwind
 ```
 
 Run stepzen
