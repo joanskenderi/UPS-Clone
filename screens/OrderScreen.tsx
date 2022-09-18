@@ -1,4 +1,4 @@
-import { View, Text } from "react-native";
+import { View } from "react-native";
 import React, { useLayoutEffect } from "react";
 import { useTailwind } from "tailwind-rn/dist";
 import {
@@ -8,6 +8,7 @@ import {
   useRoute,
 } from "@react-navigation/native";
 import { BottomTabNavigationProp } from "@react-navigation/bottom-tabs";
+
 import { TabStackParamList } from "../navigator/TabNavigator";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { RootStackParamList } from "../navigator/RootNavigator";

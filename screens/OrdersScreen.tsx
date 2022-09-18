@@ -1,17 +1,17 @@
 import { View, Text, ScrollView, ActivityIndicator } from "react-native";
 import React, { useLayoutEffect, useState } from "react";
-import { RootStackParamList } from "../navigator/RootNavigator";
 import {
   CompositeNavigationProp,
-  RouteProp,
   useNavigation,
 } from "@react-navigation/native";
 import { BottomTabNavigationProp } from "@react-navigation/bottom-tabs";
-import { TabStackParamList } from "../navigator/TabNavigator";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { useTailwind } from "tailwind-rn/dist";
-import useOrders from "../hooks/useOrders";
 import { Button, Image } from "@rneui/themed";
+
+import { RootStackParamList } from "../navigator/RootNavigator";
+import { TabStackParamList } from "../navigator/TabNavigator";
+import useOrders from "../hooks/useOrders";
 import OrderCard from "../components/OrderCard";
 
 export type OrderScreenNavigationProp = CompositeNavigationProp<

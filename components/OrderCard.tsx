@@ -7,8 +7,9 @@ import {
   useNavigation,
 } from "@react-navigation/native";
 import { BottomTabNavigationProp } from "@react-navigation/bottom-tabs";
-import { TabStackParamList } from "../navigator/TabNavigator";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
+
+import { TabStackParamList } from "../navigator/TabNavigator";
 import { RootStackParamList } from "../navigator/RootNavigator";
 
 export type OrdersScreenNavigationProp = CompositeNavigationProp<

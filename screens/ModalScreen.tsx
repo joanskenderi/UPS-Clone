@@ -9,8 +9,9 @@ import {
   useRoute,
 } from "@react-navigation/native";
 import { BottomTabNavigationProp } from "@react-navigation/bottom-tabs";
-import { TabStackParamList } from "../navigator/TabNavigator";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
+
+import { TabStackParamList } from "../navigator/TabNavigator";
 import { RootStackParamList } from "../navigator/RootNavigator";
 import useCustomerOrders from "../hooks/useCustomerOrders";
 import DeliveryCard from "../components/DeliveryCard";
@@ -50,7 +51,7 @@ const ModalScreen = () => {
           >
             {name}
           </Text>
-          <Text style={[tw("text-center italic")]}>deliveries</Text>
+          <Text style={tw("text-center italic")}>deliveries</Text>
         </View>
       </View>
 

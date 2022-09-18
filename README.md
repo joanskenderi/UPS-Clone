@@ -1,6 +1,6 @@
 # UPS Clone
 
-Project from Sonny Sangha's YouTube channel
+Project from Sonny Sangha's YouTube channel.
 
 ---
 
@@ -22,6 +22,8 @@ Tech Stack:
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" width="15" height="15" />
 
 ---
+
+## Setup
 
 Install node_modules
 
