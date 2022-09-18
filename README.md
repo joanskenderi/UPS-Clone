@@ -23,7 +23,11 @@ Tech Stack:
 
 ---
 
-Run project
+Install node_modules
+
+`npm install`
+
+Start Expo
 
 ```
 expo start
@@ -41,3 +45,5 @@ Run stepzen
 cd stepzen
 stepzen start
 ```
+
+---
