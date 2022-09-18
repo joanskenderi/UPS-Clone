@@ -25,7 +25,9 @@ Tech Stack:
 
 Install node_modules
 
-`npm install`
+```
+npm install
+```
 
 Start Expo
 
@@ -33,13 +35,13 @@ Start Expo
 expo start
 ```
 
-Run tailwind-rn in development mode:
+Run Tailwind in development mode:
 
 ```
 npm run dev:tailwind
 ```
 
-Run stepzen
+Run StepZen
 
 ```
 cd stepzen
