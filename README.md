@@ -52,4 +52,4 @@ stepzen start
 
 ---
 
-https://user-images.githubusercontent.com/86119045/190916731-ba5eb821-bc41-4929-a701-dc68e7f6ee7b.mp4
+https://user-images.githubusercontent.com/86119045/190916775-74d88214-5206-40e3-b6a9-02f4a173a065.mp4
