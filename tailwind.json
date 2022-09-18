@@ -34,6 +34,14 @@
 			"zIndex": 10
 		}
 	},
+	"m-0": {
+		"style": {
+			"marginTop": 0,
+			"marginRight": 0,
+			"marginBottom": 0,
+			"marginLeft": 0
+		}
+	},
 	"my-2": {
 		"style": {
 			"marginTop": 8,
@@ -61,19 +69,19 @@
 			"marginTop": 20
 		}
 	},
-	"mt-3": {
+	"ml-2": {
 		"style": {
-			"marginTop": 12
+			"marginLeft": 8
+		}
+	},
+	"-mt-2": {
+		"style": {
+			"marginTop": -8
 		}
 	},
 	"-mt-3": {
 		"style": {
 			"marginTop": -12
-		}
-	},
-	"ml-2": {
-		"style": {
-			"marginLeft": 8
 		}
 	},
 	"block": {
@@ -139,6 +147,14 @@
 			"borderBottomLeftRadius": 8
 		}
 	},
+	"rounded-none": {
+		"style": {
+			"borderTopLeftRadius": 0,
+			"borderTopRightRadius": 0,
+			"borderBottomRightRadius": 0,
+			"borderBottomLeftRadius": 0
+		}
+	},
 	"border": {
 		"style": {
 			"borderTopWidth": 1,
@@ -166,6 +182,12 @@
 			"paddingLeft": 20
 		}
 	},
+	"px-5": {
+		"style": {
+			"paddingLeft": 20,
+			"paddingRight": 20
+		}
+	},
 	"px-10": {
 		"style": {
 			"paddingLeft": 40,
@@ -184,10 +206,9 @@
 			"paddingBottom": 8
 		}
 	},
-	"px-5": {
+	"pb-5": {
 		"style": {
-			"paddingLeft": 20,
-			"paddingRight": 20
+			"paddingBottom": 20
 		}
 	},
 	"pt-5": {
@@ -198,16 +219,6 @@
 	"pb-0": {
 		"style": {
 			"paddingBottom": 0
-		}
-	},
-	"pb-10": {
-		"style": {
-			"paddingBottom": 40
-		}
-	},
-	"pb-5": {
-		"style": {
-			"paddingBottom": 20
 		}
 	},
 	"text-center": {
@@ -227,12 +238,6 @@
 			"lineHeight": 20
 		}
 	},
-	"text-xl": {
-		"style": {
-			"fontSize": 20,
-			"lineHeight": 28
-		}
-	},
 	"text-xs": {
 		"style": {
 			"fontSize": 12,
@@ -249,6 +254,12 @@
 		"style": {
 			"fontSize": 16,
 			"lineHeight": 24
+		}
+	},
+	"text-xl": {
+		"style": {
+			"fontSize": 20,
+			"lineHeight": 28
 		}
 	},
 	"font-bold": {
@@ -277,16 +288,16 @@
 			"color": "rgb(255 255 255 / var(--tw-text-opacity))"
 		}
 	},
-	"text-gray-500": {
-		"style": {
-			"--tw-text-opacity": 1,
-			"color": "rgb(107 114 128 / var(--tw-text-opacity))"
-		}
-	},
 	"text-gray-400": {
 		"style": {
 			"--tw-text-opacity": 1,
 			"color": "rgb(156 163 175 / var(--tw-text-opacity))"
+		}
+	},
+	"text-gray-500": {
+		"style": {
+			"--tw-text-opacity": 1,
+			"color": "rgb(107 114 128 / var(--tw-text-opacity))"
 		}
 	}
 }
