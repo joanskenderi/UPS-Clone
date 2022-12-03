@@ -4,25 +4,6 @@ Project from Sonny Sangha's YouTube channel.
 
 ---
 
-Tech Stack:
-
-- TypeScript
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="15" height="15" />
-
-- React Native
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="15" height="15" />
-
-- TailwindCSS
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="15" height="15" />
-
-- Firebase
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="15" height="15" />
-
-- GraphQL
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" width="15" height="15" />
-
----
-
 ## Setup
 
 Install node_modules

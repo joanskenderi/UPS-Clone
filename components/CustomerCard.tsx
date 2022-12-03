@@ -1,9 +1,8 @@
-import { View, Text, TouchableOpacity } from "react-native";
 import React from "react";
+import { View, Text, TouchableOpacity } from "react-native";
 import { useTailwind } from "tailwind-rn/dist";
 import { useNavigation } from "@react-navigation/native";
 import { Card, Icon } from "@rneui/themed";
-
 import useCustomerOrders from "../hooks/useCustomerOrders";
 import { CustomerScreenNavigationProp } from "../screens/CustomersScreen";
 
@@ -27,7 +26,7 @@ const CustomerCard = ({ email, name, userId }: Props) => {
         })
       }
     >
-      <Card containerStyle={tw("p-5 rounded-lg")}>
+      <Card containerStyle={tw("p-5 rounded-lg justify-between")}>
         <View>
           <View style={tw("flex-row justify-between")}>
             <View>
@@ -36,7 +35,6 @@ const CustomerCard = ({ email, name, userId }: Props) => {
                 ID: {userId}
               </Text>
             </View>
-
             <View style={tw("flex-row items-center justify-end")}>
               <Text style={{ color: "#59c1cc" }}>
                 {loading ? "loading..." : `${orders.length} x`}
@@ -50,9 +48,9 @@ const CustomerCard = ({ email, name, userId }: Props) => {
               />
             </View>
           </View>
+          <Card.Divider />
+          <Text>{email}</Text>
         </View>
-        <Card.Divider />
-        <Text>{email}</Text>
       </Card>
     </TouchableOpacity>
   );

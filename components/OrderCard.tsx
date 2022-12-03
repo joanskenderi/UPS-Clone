@@ -1,14 +1,13 @@
-import { View, Text, TouchableOpacity } from "react-native";
 import React from "react";
+import { View, Text, TouchableOpacity } from "react-native";
 import { Card, Icon } from "@rneui/base";
 import { useTailwind } from "tailwind-rn/dist";
+import { BottomTabNavigationProp } from "@react-navigation/bottom-tabs";
+import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import {
   CompositeNavigationProp,
   useNavigation,
 } from "@react-navigation/native";
-import { BottomTabNavigationProp } from "@react-navigation/bottom-tabs";
-import { NativeStackNavigationProp } from "@react-navigation/native-stack";
-
 import { TabStackParamList } from "../navigator/TabNavigator";
 import { RootStackParamList } from "../navigator/RootNavigator";
 
@@ -41,7 +40,6 @@ const OrderCard = ({ item }: Props) => {
               {new Date(item.createdAt).toDateString()}
             </Text>
           </View>
-
           <View>
             <Text style={[tw("text-gray-400"), { fontSize: 10 }]}>
               {item.carrier}-{item.trackingId}
@@ -50,9 +48,8 @@ const OrderCard = ({ item }: Props) => {
               {item.trackingItems.customer.name}
             </Text>
           </View>
-
           <View style={tw("flex-row items-center")}>
-            <Text style={[tw("text-sm"), { color: "#eb6a7c" }]}>
+            <Text style={[tw("text-sm items-center"), { color: "#eb6a7c" }]}>
               {item.trackingItems.items.length} x
             </Text>
             <Icon style={tw("ml-2")} name="box" type="feather" />

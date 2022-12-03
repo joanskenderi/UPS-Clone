@@ -1,7 +1,7 @@
+import React from "react";
 import { TailwindProvider } from "tailwind-rn";
 import { NavigationContainer } from "@react-navigation/native";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
-
 import utilities from "./tailwind.json";
 import RootNavigator from "./navigator/RootNavigator";
 
@@ -10,7 +10,7 @@ const client = new ApolloClient({
   cache: new InMemoryCache(),
 });
 
-export default function App() {
+const App = () => {
   return (
     // @ts-ignore
     <TailwindProvider utilities={utilities}>
@@ -21,4 +21,6 @@ export default function App() {
       </ApolloProvider>
     </TailwindProvider>
   );
-}
+};
+
+export default App;

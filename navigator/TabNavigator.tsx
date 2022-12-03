@@ -2,7 +2,6 @@ import React, { useLayoutEffect } from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { useNavigation } from "@react-navigation/native";
 import { Icon } from "@rneui/themed";
-
 import CustomersScreen from "../screens/CustomersScreen";
 import OrdersScreen from "../screens/OrdersScreen";
 
@@ -25,15 +24,13 @@ const TabNavigator = () => {
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({
-        tabBarActiveTintColor: "#59c1cc",
-        tabBarInactiveTintColor: "gray",
         tabBarIcon: ({ focused, color, size }) => {
           if (route.name === "Customers") {
             return (
               <Icon
                 name="users"
                 type="entypo"
-                color={focused ? "#59c1cc" : "gray"}
+                color={focused ? "#59C1CC" : "gray"}
               />
             );
           } else if (route.name === "Orders") {
@@ -41,11 +38,13 @@ const TabNavigator = () => {
               <Icon
                 name="box"
                 type="entypo"
-                color={focused ? "#eb6a7c" : "gray"}
+                color={focused ? "#EB6A7C" : "gray"}
               />
             );
           }
         },
+        tabBarActiveTintColor: "#59C1CC",
+        tabBarInactiveTintColor: "gray",
       })}
     >
       <Tab.Screen name="Customers" component={CustomersScreen} />
